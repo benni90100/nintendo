@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  height: 100vw;
+  font-family: "Museo Sans Rounded", sans-serif;
+
+  font-size: 16px;
+  line-height: 1.4;
+}
+.media {
+  display: none;
+}
+.header-conteiner {
+  position: fixed;
+  z-index: 10000;
+  width: 100%;
+}
+.navBar {
+  /* flex-grow: 6; */
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(56, 56, 56, 0.17);
+}
+.leftNav {
+  display: flex;
+  align-items: center;
+
+  width: 50vw;
+}
+.logo {
+  width: 110px;
+  height: 50px;
+  background-color: rgb(230, 0, 18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+.logo img {
+  width: 90px;
+}
+.nav-form {
+  display: flex;
+  width: 30vw;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 20px;
+
+  border-bottom: 1px solid black;
+}
+.nav-button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.1rem;
+  color: rgb(159, 159, 159);
+  padding: 10px;
+}
+.nav-button i {
+  font-size: 0.9;
+  padding-right: 5px;
+  color: grey;
+}
+.search-nav {
+  font-weight: 100;
+  font-size: 0.75rem;
+}
+.nav-allcat {
+  color: rgb(56, 56, 56);
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+}
+.rightNav {
+  display: flex;
+
+  height: 100%;
+}
+.rightNav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  color: rgb(56, 56, 56);
+  font-family: "Museo Sans Rounded", sans-serif;
+  float: right;
+  padding: 15px;
+}
+.rightNav ul li {
+  float: right;
+}
+
+.rightNav ul li a,
+.central-nav ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: rgb(56, 56, 56);
+  padding: 0 13px;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+}
+.rightNav ul li a i,
+.central-nav ul li a i {
+  padding-right: 5px;
+  color: rgb(56, 56, 56);
+}
+.rightNav ul li a img {
+  border-radius: 1px;
+}
+.central-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  border-bottom: 1px solid;
+}
+.central-nav ul {
+  display: flex;
+  justify-content: center;
+}
+.central-nav ul li {
+  display: flex;
+  justify-content: center;
+}
+.central-nav ul li a i {
+  font-size: 1.1rem;
+  padding-right: 5px;
+}
+.nav-central-button {
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgba(56, 56, 56, 0.805);
+  padding: 10px;
+}
+.nintendo-store {
+  width: 100%;
+  height: 0;
+  background-color: brown;
+}
+@media screen and (max-width: 1020px) {
+  .normal-container {
+    display: none;
+  }
+  .media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background-color: rgb(230, 0, 18);
+  }
+  .logo-media {
+    width: 110px;
+    height: 50px;
+    background-color: rgb(230, 0, 18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+  }
+  .logo-media img {
+    width: 90px;
+  }
+  .menu-fix {
+    width: 400px;
+    height: 60px;
+    background-color: aqua;
+  }
+}
