@@ -53,11 +53,12 @@
 
 
 
-.digital-new-releases-card img:hover{
+
+.digital-new-releases-card:hover img{
     margin-top: -30px;
     margin-bottom: 30px; 
-    transition: 1.0s;
-    transition-timing-function:cubic-bezier(0.075 , 0.82, 0.250, 1) 
+    transition:all 1.0s ease-in-out;
+    transition-timing-function:cubic-bezier(0.075 , 0.82, 0.250, 1);
 }
 
 .digital-new-releases-card p:nth-child(3){
@@ -114,7 +115,7 @@
     font-weight: 600;
 }
 
-.digital-new-releases-card a:hover{
+.digital-new-releases-card:hover a{
     color: red;
     transition: 0.7s;
 }
