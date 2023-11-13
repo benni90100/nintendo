@@ -55,6 +55,11 @@
 
   border-bottom: 1px solid black;
 }
+.nav-form:hover{
+   color: rgb(230, 0, 18);
+   border-bottom: 1px solid rgb(230, 0, 18);
+  transition: .5s;
+}
 .nav-button {
   background-color: transparent;
   border: none;
@@ -67,7 +72,11 @@
   padding-right: 5px;
   color: grey;
 }
-.search-nav {
+.nav-button:hover, .nav-button i:hover, .nav-allcat:hover{
+  color: rgb(230, 0, 18);
+  transition: .5s;
+}
+.search-nav{
   font-weight: 100;
   font-size: 0.75rem;
 }
@@ -88,11 +97,15 @@
   list-style: none;
   color: rgb(56, 56, 56);
   font-family: "Museo Sans Rounded", sans-serif;
-  float: right;
+  
   padding: 15px;
 }
+.rightNav ul li a:hover, .rightNav ul li a i:hover{
+  color: rgb(230, 0, 18);
+  transition: .5s;
+}
 .rightNav ul li {
-  float: right;
+ 
 }
 
 .rightNav ul li a,
@@ -139,6 +152,10 @@
   font-weight: 600;
   color: rgba(56, 56, 56, 0.805);
   padding: 10px;
+}
+.nav-central-button:hover{
+  color: rgb(230, 0, 18);
+  transition: .5s;
 }
 .nintendo-store {
   width: 100%;
