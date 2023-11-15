@@ -87,22 +87,36 @@ body {
     margin-bottom: 16px;
 }
 
+.animation-cards img{
+    transition: 0.5s;
+
+}
+
+.animation-cards:hover{
+    cursor: pointer;
+}
+
 .animation-cards:hover img{
     filter: brightness(0.8);
 }
 
 .animation-cards:hover h3{
     color: rgb(230, 0, 18) ;
+    transition: 0.7s;
+
 }
 
 .animation-cards:hover > .paragrafo-news > a{
     color: #ac000d;
     border-bottom: 2px solid #ac000d;
+    transition: 0.7s;
 }
 
 .animation-cards:hover > .paragrafo-news-bottom > a{
     color: #ac000d;
     border-bottom: 2px solid #ac000d;
+    transition: 0.7s;
+
 }
 
 .news-grid-outer{
