@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container{
+    display: flex;
+    justify-content: flex;
+    font-family: "Museo Sans Rounded", sans-serif;
+  }
+  
+  .carosello-jumbotron {
+    width: 100%;
+    height: 421px;
+    padding: 13px;
+    background: linear-gradient(rgb(82, 80, 80), white);
+    border: 2px;
+  }
+  
+  .jumbotron-image {
+    display: flex;
+    width: 1168px;
+    height: 422px;
+    margin: 24px;
+    border-radius: 1rem;
+  }
+  
+  .jumbotron-text-button {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+  }
+  
+  .jumbotron-text-button h2 {
+    font-size: 1,75rem;
+    margin-right: 2rem;
+    color: rgb(72, 72, 72);
+  }
+  .jumbotron-text-button span{
+    font-weight: bold;
+    font-family: "Museo Sans Rounded", sans-serif;
+  }
+  
+  .jumbotron-text-button button {
+    background-color: red;
+    width: 180px;
+    height: 46px;
+    border-radius: 1rem;
+    border: none;
+  }
+  
+  .jumbotron-text-button button:hover {
+    animation: bounce 0.7s ease;
+    transform: scale(1.05);
+    background-color: rgb(172, 0, 13);
+    border-color: 1px solid rgb(172, 0, 13);
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: scale(1);
+    }
+  
+    40% {
+      transform: scale(1.05);
+    }
+  
+    60% {
+      transform: scale(1.03);
+    }
+  
+    80% {
+      transform: scale(1.05);
+  
+    }
+  
+  }
+  
+  
+  .jumbotron-text-button a {
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .featured-card-container{
+    display: flex;
+    font-family: "Museo Sans Rounded", sans-serif;
+  }
+  .featured-card h2{
+    margin-left: 25px;
+    color: rgb(72, 72, 72);
+  }
+  .featured-card {
+    padding-top: 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+     flex-direction: column; 
+  }
+  
+  .featured-card-first {
+    display: flex;
+    flex-direction: column;
+    width: 268px;
+    height: 311px;
+    border: 1px solid rgb(183, 181, 181);
+    border-radius: 20px;
+    object-fit: cover;
+    margin: 20px;
+  }
+   .featured-card-first img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: 0.5s;
+   }
+   .featured-card-first:hover img{
+    margin-bottom: 30px;
+    margin-top: -30px;
+  
+   }
+   .featured-card-footer h3{
+    color:rgb(72, 72, 72);
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 16px;
+   }
+   .featured-card-container a{
+    text-decoration: none;
+   }
+   .featured-card-button button{
+    width: 100px;
+    height: 18px;
+    background-color: red;
+    color: white;
+    border-radius: 1rem;
+    border:none;
+    margin: 1rem;
+    margin-top: 3rem;
+   }
+   .featured-card-barra{
+    background-color: red;
+    width: 2px;
+    height: 17px;
+    margin-right: 10px;
+    margin-left: 20px;
+   }
+  .featured-card-footer-barra{
+    display: flex;
+    color: #484848;
+  }
+  .featured-card-first:hover h3{
+    color: red;
+    transition: 0,3s;
+  
+  }
+  
