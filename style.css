@@ -15,8 +15,17 @@
 .digital-best-sellers-title{
     display: flex;
     align-items: center;
-    padding: 50px 0px 50px 325px;
+    /* width: 100%; */
+    padding: 50px 0px 50px 325px;    
     
+}
+
+@media(max-width : 768px){
+    .digital-best-sellers-title{
+        padding: 50px 0px 50px 50px;
+            
+    }
+
 }
 
 .digital-best-sellers-title h2{
@@ -171,6 +180,14 @@
     display: flex;
     align-items: center;
     padding: 50px 0px 50px 325px;
+}
+
+@media(max-width : 768px){
+    .digital-new-releases-title{
+        padding: 50px 0px 50px 50px;
+            
+    }
+
 }
 
 .digital-new-releases-title h2{
@@ -363,5 +380,13 @@
     font-weight: 300;
     font-size: 12px;
     padding: 50px 0px 50px 325px;
+
+}
+
+@media(max-width : 768px){
+    .digital-final-message{
+        padding: 50px 0px 50px 50px;
+            
+    }
 
 }
