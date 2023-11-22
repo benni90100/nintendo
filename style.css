@@ -153,4 +153,672 @@
     color: red;
     transition: 0,3s;
   }
+  /* alex */
+@import url('https://fonts.cdnfonts.com/css/museo-sans-rounded');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.digital-best-sellers{
+    font-family: "Museo Sans Rounded", sans-serif;
+    border: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.digital-best-sellers{
+    border-top: 1px solid grey;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.digital-best-sellers-title{
+    display: flex;
+    align-items: center;
+    /* width: 100%; */
+    padding: 50px 0px 50px 325px;    
+    
+}
+
+@media(max-width : 768px){
+    .digital-best-sellers-title{
+        padding: 50px 0px 50px 50px;
+            
+    }
+
+}
+
+.digital-best-sellers-title h2{
+    padding-right: 10px;
+    border-right: 1px solid black;
+    color: rgb(97, 97, 97);
+    font-weight: 600;
+    font-size: 1.75rem;
+}
+
+.digital-best-sellers-title a{
+    padding-left: 10px;
+    color: rgb(220, 0, 18);
+    font-weight: 700;
+}
+
+.digital-best-sellers-title a:hover{
+    color: rgb(85, 18, 18);
+    transition: 1s;
+}
+
+.digital-best-sellers-container{
+    display: flex;
+    justify-content: center;
+    gap:40px
+}
+
+.digital-best-sellers-card{
+    display: flex;
+    flex-direction: column;
+    width: 262px;
+    height: 316px;
+    border: 1px solid rgba(198, 198, 198, 0.578);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.digital-best-sellers-card img{
+    transition: 0.5s;
+}
+
+
+.digital-best-sellers-card:hover img{
+    margin-top: -20px;
+    margin-bottom: 20px;
+    /* transition:all 1.0s ease-in-out;
+    transition-timing-function:cubic-bezier(0.075 , 0.82, 0.250, 1);
+    transition: top 2s ease-in-out; */
+}
+
+.digital-best-sellers-card p:nth-child(3){
+    font-size: 12px;
+    color: rgb(138, 138, 138)
+    
+}
+
+.digital-best-sellers-card p:nth-child(4){
+    font-weight: 600;
+    color: rgb(72, 72, 72);
+    
+}
+
+.digital-best-sellers-card p{
+    margin:10px;
+}
+
+.digital-best-sellers-card-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.digital-best-sellers-card-footer p{
+    border-left: 2px solid red;
+    padding-left: 10px;
+    font-size: 12px;
+    color: grey;
+}
+
+.digital-best-sellers-card-footer i{
+    margin-right: 15px;
+    font-size: x-large;
+    color: red;
+    cursor: pointer;
+}
+.digital-best-sellers-card-footer i:hover{
+    color: rgb(85, 18, 18);
+    transition: 0.7s;
+}
+
+.digital-best-sellers-card img{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+
+.digital-best-sellers-card a{
+    padding-top: 15px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: rgb(72, 72, 72);
+    font-size: 14px;
+    font-weight: bolder;
+    font-weight: 600;
+}
+
+.digital-best-sellers-card:hover a{
+    color: red;
+    transition: 0.7s;
+}
+
+.digital-best-sellers-card-footer1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:15px;
+}
+
+.digital-best-sellers-card-footer1 p{
+    border-left: 2px solid red;
+    padding-left: 10px;
+    font-size: 12px;
+    color: grey;
+}
+
+.digital-best-sellers-card-footer1 i{
+    margin-right: 15px;
+    font-size: x-large;
+    color: red;
+    cursor: pointer;
+}
+.digital-best-sellers-card-footer1 i:hover{
+    color: rgb(85, 18, 18);
+    transition: 0.7s;
+}
+
+/* digital best seller */
+
+.digital-new-releases{
+    font-family: "Museo Sans Rounded", sans-serif;
+    border: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.digital-new-releases{
+    margin-top:50px;
+}
+
+.digital-new-releases-title{
+    display: flex;
+    align-items: center;
+    padding: 50px 0px 50px 325px;
+}
+
+@media(max-width : 768px){
+    .digital-new-releases-title{
+        padding: 50px 0px 50px 50px;
+            
+    }
+
+}
+
+.digital-new-releases-title h2{
+    padding-right: 10px;
+    border-right: 1px solid black;
+    color: rgb(97, 97, 97);
+    font-weight: 600;
+    font-size: 1.75rem;
+}
+
+.digital-new-releases-title a{
+    padding-left: 10px;
+    color: rgb(220, 0, 18);
+    font-weight: 700;
+}
+
+.digital-new-releases-title a:hover{
+    color: rgb(85, 18, 18);
+    transition: 1s;
+}
+
+.digital-new-releases-container{
+    display: flex;
+    justify-content: center;
+    gap:40px
+}
+
+.digital-new-releases-card{
+    display: flex;
+    flex-direction: column;
+    width: 262px;
+    height: 316px;
+    border: 1px solid rgba(198, 198, 198, 0.578);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.digital-new-releases-card .message{
+    display: flex;
+    justify-content: center;
+    width: 45px;
+    border-radius: 10px 10px 10px 10px;
+    font-size: small;
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 0, 18);
+    margin-top: 17px;
+    padding: 2px;
+}
+
+.digital-new-releases-card .message-6days{
+    display: flex;
+    justify-content: center;
+    width: 110px;
+    border-radius: 10px 10px 10px 10px;
+    font-size: small;
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 0, 18);
+    margin-top: 17px;
+    padding: 2px;
+
+}
+
+.digital-new-releases-card .prezzo-scontato {
+    
+    display: flex;
+    align-items: center;
+    font-size: 16px;   
+}
+
+.digital-new-releases-card .prezzo-scontato p:first-child{
+    color: rgb(72, 72, 72);
+    font-weight: 600;
+}
+
+
+.digital-new-releases-card .prezzo-scontato .sconto{
+    font-size: 12px;
+    text-decoration: line-through;
+    font-weight: 300;
+    color: grey;
+}
+
+.digital-new-releases-card .prezzo-scontato .icona-sconto{
+    background-color:rgb(230, 0, 18) ;
+    color:rgb(255, 255, 255) ;
+    border-radius: 10px 0 0 10px;
+}
+
+.digital-new-releases-card img{
+    transition: 0.4s;
+}
+
+
+.digital-new-releases-card:hover img{
+    margin-top: -20px;
+    margin-bottom: 20px; 
+    /* transition:all 1.0s ease-in-out;
+    transition-timing-function:cubic-bezier(0.075 , 0.82, 0.250, 1); */
+}
+
+.digital-new-releases-card p:nth-child(3){
+    font-size: 12px;
+    color:gray;
+}
+
+.digital-new-releases-card p:nth-child(5){
+    font-weight: 600;
+    color: rgb(72, 72, 72);
+}
+
+.digital-new-releases-card p{
+    margin:7px;
+}
+
+.digital-new-releases-card-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.digital-new-releases-card-footer p{
+    border-left: 2px solid red;
+    padding-left: 10px;
+    font-size: 12px;
+    color: grey;
+}
+
+.digital-new-releases-card-footer i{
+    margin-right: 15px;
+    font-size: x-large;
+    color: red;
+    cursor: pointer;
+}
+.digital-new-releases-card-footer i:hover{
+    color: rgb(85, 18, 18);
+    transition: 0.7s;
+}
+
+.digital-new-releases-card img{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+
+.digital-new-releases-card a{
+    padding-top: 15px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: rgb(72, 72, 72);
+    font-size: 14px;
+    font-weight: bolder;
+    font-weight: 600;
+}
+
+.digital-new-releases-card:hover a{
+    color: red;
+    transition: 0.7s;
+}
+
+.digital-new-releases-card-footer1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-top:15px; */
+}
+
+.digital-new-releases-card-footer1 p{
+    border-left: 2px solid red;
+    padding-left: 10px;
+    font-size: 12px;
+    color: grey;
+}
+
+.digital-new-releases-card-footer1 i{
+    margin-right: 15px;
+    font-size: x-large;
+    color: red;
+    cursor: pointer;
+}
+.digital-new-releases-card-footer1 i:hover{
+    color: rgb(85, 18, 18);
+    transition: 0.7s;
+}
+
+/* final message */
+
+.digital-final-message{
+    font-family:"Museo Sans Rounded", sans-serif;
+    color: rgb(113, 113, 113);
+    font-weight: 300;
+    font-size: 12px;
+    padding: 50px 0px 50px 325px;
+
+}
+
+@media(max-width : 768px){
+    .digital-final-message{
+        padding: 50px 0px 50px 50px;
+            
+    }
+
+}
+/* Benni */
+.wrapper {
   
+  font-family: "Museo Sans Rounded", sans-serif;
+
+  font-size: 16px;
+  line-height: 1.4;
+}
+.media {
+  display: none;
+}
+.header-conteiner {
+  
+  z-index: 10000;
+  width: 100%;
+}
+.navBar {
+  /* flex-grow: 6; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(56, 56, 56, 0.17);
+}
+.leftNav {
+  display: flex;
+  align-items: center;
+
+  width: 50vw;
+}
+.logo {
+  width: 110px;
+  height: 50px;
+  background-color: rgb(230, 0, 18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+.logo img {
+  width: 90px;
+}
+.nav-form {
+  display: flex;
+  width: 30vw;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 20px;
+
+  border-bottom: 1px solid black;
+}
+.nav-form:hover {
+  color: rgb(230, 0, 18);
+  border-bottom: 1px solid rgb(230, 0, 18);
+  transition: 0.5s;
+}
+.nav-button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.1rem;
+  color: rgb(159, 159, 159);
+  padding: 10px;
+}
+.nav-button i {
+  font-size: 0.9;
+  padding-right: 5px;
+  color: grey;
+}
+.nav-button:hover,
+.nav-button i:hover,
+.nav-allcat:hover {
+  color: rgb(230, 0, 18);
+  transition: 0.5s;
+}
+.search-nav {
+  font-weight: 100;
+  font-size: 0.75rem;
+}
+.nav-allcat {
+  color: rgb(56, 56, 56);
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+}
+.rightNav {
+  display: flex;
+
+  height: 100%;
+}
+.rightNav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  color: rgb(56, 56, 56);
+  font-family: "Museo Sans Rounded", sans-serif;
+
+  padding: 15px;
+}
+.rightNav ul li a:hover,
+.rightNav ul li a i:hover {
+  color: rgb(230, 0, 18);
+  transition: 0.5s;
+}
+.rightNav ul li {
+}
+
+.rightNav ul li a,
+.central-nav ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: rgb(56, 56, 56);
+  padding: 0 13px;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+}
+.rightNav ul li a i,
+.central-nav ul li a i {
+  padding-right: 5px;
+  color: rgb(56, 56, 56);
+}
+.rightNav ul li a img {
+  border-radius: 1px;
+}
+.central-nav {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  border-bottom: 1px solid;
+}
+.central-nav ul {
+  display: flex;
+  justify-content: center;
+}
+.central-nav ul li {
+  display: flex;
+  justify-content: center;
+}
+.central-nav ul li a i {
+  font-size: 1.1rem;
+  padding-right: 5px;
+}
+.nav-central-button {
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgba(56, 56, 56, 0.805);
+  padding: 10px;
+}
+.nav-central-button:hover {
+  color: rgb(230, 0, 18);
+  transition: 0.5s;
+}
+.nintendo-store {
+  width: 100%;
+  height: 0;
+  background-color: brown;
+}
+
+@media screen and (max-width: 1020px) {
+  
+  .header-conteiner {
+    
+    height: 1000vh;
+  }
+  .normal-container {
+    display: none;
+  }
+  .media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background-color: rgb(230, 0, 18);
+  }
+  .logo-media {
+    width: 110px;
+    height: 50px;
+    background-color: rgb(230, 0, 18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+  }
+  .logo-media img {
+    width: 90px;
+  }
+  .menu-fix {
+    width: 400px;
+    height: 60px;
+  }
+  .botton-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    right: 0;
+    height: 52px;
+    bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0.25rem 0.5rem 0px;
+  }
+  .navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 450px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+  }
+  .hamburger-container,
+  .heart-conteiner,
+  .search-container,
+  .char-container,
+  .account-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+  }
+  .hamburger {
+    width: 24px;
+    height: 5px;
+    
+    background-color: rgb(56, 56, 56);
+    position: relative;
+  }
+  .hamburger::after,
+  .hamburger::before {
+    content: "";
+    width: 24px;
+    height: 5px;
+   
+    background-color: rgb(56, 56, 56);
+    position: absolute;
+  }
+  .hamburger::after {
+    top: 10px;
+  }
+  .hamburger::before {
+    top: -10px;
+  }
+  .heart-container button,
+  .char-container button,
+  .account-container button {
+    width: 60px;
+    height: 60px;
+    border: transparent;
+    background-color: transparent;
+    font-size: 1.6rem;
+    color: rgb(56, 56, 56);
+  }
+  .search-container button {
+    width: 60px;
+    height: 60px;
+    border: transparent;
+    font-size: 1.8rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 0, 18);
+    position: absolute;
+    top: -1rem;
+    border-radius: 50%;
+  }
+}
