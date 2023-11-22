@@ -567,9 +567,11 @@
   display: none;
 }
 .header-conteiner {
-  
+  position: fixed;
   z-index: 10000;
   width: 100%;
+  background-color: white;
+ 
 }
 .navBar {
   /* flex-grow: 6; */
@@ -578,6 +580,7 @@
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid rgba(56, 56, 56, 0.17);
+  
 }
 .leftNav {
   display: flex;
@@ -659,8 +662,7 @@
   color: rgb(230, 0, 18);
   transition: 0.5s;
 }
-.rightNav ul li {
-}
+
 
 .rightNav ul li a,
 .central-nav ul li a {
