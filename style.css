@@ -159,11 +159,6 @@
   }
   /* alex */
 @import url('https://fonts.cdnfonts.com/css/museo-sans-rounded');
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 .digital-best-sellers{
     font-family: "Museo Sans Rounded", sans-serif;
     border: 0;
@@ -411,7 +406,7 @@
     color: rgb(255, 255, 255);
     background-color: rgb(230, 0, 18);
     margin-top: 17px;
-    padding: 2px;
+    padding: 1px;
 
 }
 
@@ -465,6 +460,11 @@
 
 .digital-new-releases-card p{
     margin:7px;
+}
+
+.digital-new-releases-card:nth-child(3) a{
+  font-size: 13px;
+  font-weight: 700;
 }
 
 .digital-new-releases-card-footer{
