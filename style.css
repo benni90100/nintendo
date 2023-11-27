@@ -689,7 +689,7 @@
   align-items: center;
   width: 100%;
   margin: 0 auto;
-  border-bottom: 1px solid rgb(56,56,56);
+  border-bottom: 1px solid rgba(56, 56, 56, 0.7);
 }
 .central-nav ul {
   display: flex;
@@ -720,6 +720,12 @@
   height: 0;
   background-color: brown;
 }
+/* .hover-menu{
+  
+  width: 100%;
+  background-color: white;
+  height: 50%;
+} */
 
 /* @media screen and (max-width: 1020px) {
   
