@@ -6,6 +6,7 @@
 
   body {
     font-family: "Museo Sans Rounded", sans-serif;
+    
 }
   .container{
     display: flex;
@@ -686,9 +687,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid rgb(56,56,56);
 }
 .central-nav ul {
   display: flex;
