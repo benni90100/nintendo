@@ -703,9 +703,9 @@ body {
   overflow: hidden;
   transition: max-height 0.8s ease-in-out;
 }
-/* #nintendo{
+#nintendo{
   display: none;
-} */
+}
 .input-lab:checked ~ .hover-menu{
   max-height: 600px;
   
