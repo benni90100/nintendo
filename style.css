@@ -33,14 +33,18 @@ body {
   display: flex;
   padding: 20px;
   align-items: center;
+  margin-left: 16vw;
 }
 
 .jumbotron-text-button h2 {
-  font-size: 1, 75rem;
+  font-size: 26px;
   margin-right: 2rem;
   color: rgb(72, 72, 72);
+  font-family: "Museo Sans Rounded", sans-serif;
+  
 }
 .jumbotron-text-button span {
+  font-size: 16px;
   font-weight: bold;
   font-family: "Museo Sans Rounded", sans-serif;
 }
@@ -87,10 +91,16 @@ body {
 .featured-card-container {
   display: flex;
   font-family: "Museo Sans Rounded", sans-serif;
+  
 }
 .featured-card h2 {
-  margin-left: 25px;
+  font-size: 26px;
+  padding: 2vw;
+  margin-top: 5vw;
+  margin-right: auto;
   color: rgb(72, 72, 72);
+  margin-left: 16vw;
+  font-family: "Museo Sans Rounded", sans-serif;
 }
 .featured-card {
   padding-top: 10rem;
@@ -98,6 +108,9 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  /* margin: 0 auto; */
+  align-items: center;
+  
 }
 
 .featured-card-first {
