@@ -708,9 +708,7 @@ body {
 } */
 .input-lab:checked ~ .hover-menu{
   max-height: 600px;
-  /* display: block;
-  animation: normal; */
-  /* transition: 2s ease-in-out; */
+  
 }
 
 .hover-logo {
