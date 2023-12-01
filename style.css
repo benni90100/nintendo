@@ -832,7 +832,7 @@ margin-left: 16vw;
   font-size: .9rem;
   font-weight: 600;
   color: rgba(56, 56, 56, 0.805);
-  padding: 10px 30px;
+  padding: 15px 30px;
 }
 .nav-central-button:hover {
   color: rgb(230, 0, 18);
@@ -851,7 +851,7 @@ h3{
 .hover-menu {
  /* display: none; */
  position: absolute;
- top: 85px;
+ top:95px;
  left: 0px;
   width: 100%;
   background-color: white;
@@ -869,6 +869,7 @@ h3{
   
   
 }
+
 
 .hover-logo {
   width: 100%;
