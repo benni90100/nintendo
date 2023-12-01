@@ -31,7 +31,7 @@ body {
   margin: 24px;
   border-radius: 1rem;
 }
-.jumbotron-conteiner-img-media{
+.jumbotron-conteiner-img-media {
   visibility: hidden;
   height: 0;
 }
@@ -49,7 +49,6 @@ body {
   margin-right: 2rem;
   color: rgb(72, 72, 72);
   font-family: "Museo Sans Rounded", sans-serif;
-  
 }
 .jumbotron-text-button span {
   font-size: 16px;
@@ -97,19 +96,23 @@ body {
   justify-content: center;
 }
 
-.jumbotron-text-button-logo{
-margin-left: 16vw;
+.jumbotron-text-button-logo {
+  margin-left: 16vw;
 }
-.jumbotron-carosello-footer-left, .jumbotron-carosello-footer-play, .jumbotron-carosello-footer-right{
+.jumbotron-carosello-footer-left,
+.jumbotron-carosello-footer-play,
+.jumbotron-carosello-footer-right {
   width: 33px;
   height: 33px;
-  color:white;
+  color: white;
   background-color: rgb(35, 31, 31);
   border-radius: 50%;
   padding: 9px;
   margin-right: 15px;
 }
-.jumbotron-carosello-footer-line1, .jumbotron-carosello-footer-line2, .jumbotron-carosello-footer-line3{
+.jumbotron-carosello-footer-line1,
+.jumbotron-carosello-footer-line2,
+.jumbotron-carosello-footer-line3 {
   width: 50px;
   height: 8px;
   background-color: gray;
@@ -138,11 +141,11 @@ margin-left: 16vw;
     transform: scale(1.05);
   }
 }
-.jumbotron-carosello-footer a{
+.jumbotron-carosello-footer a {
   color: white;
   text-decoration: none;
 }
-@media screen and (max-width: 1020px){
+@media screen and (max-width: 1020px) {
   .carosello-jumbotron {
     /* background-image: url(https://assets.nintendo.com/image/upload/f_auto/q_auto/c_fill,w_1000/ncom/en_US/merchandising/center-stage-stories/2023/11-November/Black%20Friday/Ncom_2200x2000_centerstage_3_HW_m_HH); */
     display: flex;
@@ -150,17 +153,17 @@ margin-left: 16vw;
     /* height: 88vw; */
     height: auto;
   }
-  .jumbotron-conteiner-img-media{
+  .jumbotron-conteiner-img-media {
     visibility: visible;
     height: 100%;
     width: 100%;
     background-size: contain;
   }
-  .jumbotron-container{
-  width: 100%;
-  height: 100%;
+  .jumbotron-container {
+    width: 100%;
+    height: 100%;
   }
-  .jumbotron-text-button{
+  .jumbotron-text-button {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -169,44 +172,43 @@ margin-left: 16vw;
     margin-top: 70px;
     /* padding-top: 85vw; */
   }
-  .jumbotron-text-button-logo{
+  .jumbotron-text-button-logo {
     margin: 0 auto;
     margin-top: 40px;
   }
-  .jumbotron-text-button button{
+  .jumbotron-text-button button {
     width: 900px;
     margin-top: 40px;
   }
-  .jumbo-cont{
+  .jumbo-cont {
     width: 100%;
     height: 80%;
   }
-  .jumbotron-image{
+  .jumbotron-image {
     display: none;
     height: 0;
   }
-  .jumbotron-carosello-footer{
+  .jumbotron-carosello-footer {
     margin-top: 40px;
     margin-bottom: 40px;
   }
-  .featured-card{
+  .featured-card {
     border-top: 1px solid gray;
   }
-  .featured-card-container{
+  .featured-card-container {
     /* margin-left: 50vw;
     margin-top: 10vw; */
     margin: auto auto auto auto;
   }
-  .featured-card-text h2{
+  .featured-card-text h2 {
     /* margin-top: 5vw;
     margin-bottom: -60vw; */
-    margin: 0 auto ;
+    margin: 0 auto;
   }
 }
 .featured-card-container {
   display: flex;
   font-family: "Museo Sans Rounded", sans-serif;
-  
 }
 .featured-card-text {
   font-size: 18px;
@@ -216,7 +218,7 @@ margin-left: 16vw;
   color: rgb(72, 72, 72);
   /* margin-left: 16vw; */
   font-family: "Museo Sans Rounded", sans-serif;
-}  
+}
 
 .featured-card {
   /* padding-top: 10rem; */
@@ -227,7 +229,6 @@ margin-left: 16vw;
   /* margin: 0 auto; */
   align-items: center;
   border-top: 1px solid gray;
-  
 }
 
 .featured-card-first {
@@ -311,11 +312,10 @@ margin-left: 16vw;
   }
 }
 
-@media( max-width: 1366px) {
+@media (max-width: 1366px) {
   .digital-best-sellers-title {
     padding: 50px 0px 50px 50px;
   }
-
 }
 
 .digital-best-sellers-title h2 {
@@ -473,11 +473,10 @@ margin-left: 16vw;
   }
 }
 
-@media( max-width: 1366px) {
+@media (max-width: 1366px) {
   .digital-new-releases-title {
     padding: 50px 0px 50px 50px;
   }
-
 }
 
 .digital-new-releases-title h2 {
@@ -678,11 +677,10 @@ margin-left: 16vw;
   }
 }
 
-@media( max-width: 1366px) {
+@media (max-width: 1366px) {
   .digital-final-message {
     padding: 50px 0px 50px 50px;
   }
-
 }
 /* Benni */
 .wrapper {
@@ -829,28 +827,18 @@ margin-left: 16vw;
 .nav-central-button {
   border: none;
   background-color: transparent;
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: 600;
   color: rgba(56, 56, 56, 0.805);
   padding: 15px 30px;
 }
- .nav-central-button:hover {
+.nav-central-button:hover {
   color: rgb(230, 0, 18);
   transition: 0.5s;
 }
 
-/* .line{
-  max-width: 100%;
-  transition: max-width .8s ese;
-  background-color: red;
-  height: 5px;
-  position: relative;
-  top: 8px;
-
-} */
-
-h3{
-  font-size: .9rem;
+h3 {
+  font-size: 0.9rem;
   color: rgb(68, 68, 68);
   text-align: start;
 }
@@ -860,27 +848,24 @@ h3{
   background-color: brown;
 }
 .hover-menu {
- /* display: none; */
- position: absolute;
- top:100px;
- left: 0px;
+  /* display: none; */
+  position: absolute;
+  top: 95px;
+  left: 0px;
   width: 100%;
   background-color: white;
   max-height: 0px;
   overflow: hidden;
-  transition: max-height 0.8s ease-in-out;
+  transition: max-height 0.3s ease-in-out;
 }
-#nintendo{
+#nintendo {
   display: none;
 }
-.input-lab:checked ~ .hover-menu{
+.input-lab:checked ~ .hover-menu {
   background-color: #00000096;
   height: 100vh;
   max-height: 600px;
-  
- 
 }
-
 
 .hover-logo {
   width: 100%;
@@ -916,21 +901,16 @@ h3{
 }
 
 .link-game-head {
-  
   padding: 10px 0;
   /* padding-right: 20px; */
- 
 }
-.li-hover-container  ul {
+.li-hover-container ul {
   display: flex;
   flex-direction: column;
   /* list-style: none; */
-  
 }
-.li-hover-container ul li{
+.li-hover-container ul li {
   padding-bottom: 10px;
-  
-  
 }
 .link-game-link ul li a {
   text-decoration: none;
@@ -938,7 +918,7 @@ h3{
   font-weight: lighter;
   padding: 0;
 }
-.link-game{
+.link-game {
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -949,13 +929,12 @@ h3{
   align-items: center;
 }
 
-.link-game-head i{
+.link-game-head i {
   color: #d10011;
-  font-size: .9rem;
+  font-size: 0.9rem;
   padding-right: 5px;
-  
 }
-.hover-menu-button{
+.hover-menu-button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1003,7 +982,6 @@ h3{
   font-size: 1.2rem;
   font-weight: 600;
 }
-
 
 /* @media screen and (max-width: 1020px) {
   
