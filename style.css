@@ -703,7 +703,7 @@ body {
 }
 .central-nav ul li {
   display: flex;
-  justify-content: center;
+  justify-content: start;
 }
 .central-nav ul li a i {
   font-size: 1.1rem;
@@ -720,6 +720,11 @@ body {
 .nav-central-button:hover {
   color: rgb(230, 0, 18);
   transition: 0.5s;
+}
+h3{
+  font-size: .9rem;
+  color: rgb(68, 68, 68);
+  text-align: start;
 }
 .nintendo-store {
   width: 100%;
@@ -771,34 +776,52 @@ body {
 .li-hover-container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 1.75rem;
+  align-items: baseline;
+  gap: 2rem;
   margin: 0 auto;
   background-color: white;
+  padding-top: 10px;
 }
 
 .link-game-head {
   
   padding: 10px 0;
+  /* padding-right: 20px; */
  
 }
-.li-hover-container ul {
+.li-hover-container  ul {
   display: flex;
   flex-direction: column;
-  list-style: none;
+  /* list-style: none; */
+  
 }
 .li-hover-container ul li{
   padding-bottom: 10px;
+  
+  
 }
-.li-hover-container a {
+.link-game-link ul li a {
   text-decoration: none;
   color: rgb(113, 113, 113);
-  
+  font-weight: lighter;
+  padding: 0;
+}
+.link-game{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
 .link-game-head {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.link-game-head i{
+  color: #d10011;
+  font-size: .9rem;
+  padding-right: 5px;
+  
 }
 .hover-menu-button{
   display: flex;
