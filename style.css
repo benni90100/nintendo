@@ -15,25 +15,33 @@ body {
 
 .carosello-jumbotron {
   width: 100%;
-  height: 421px;
-  padding: 13px;
-  background: linear-gradient(rgb(82, 80, 80), white);
+  /* height: 421px; */
+  height: auto;
+  /* padding: 13px; <---lo devo togliere!!!! ma cade il menu di benni */
+  background: linear-gradient(#c7af27, white);
   border: 2px;
+  padding-top: 100px;
 }
 
 .jumbotron-image {
   display: flex;
-  width: 1168px;
-  height: 422px;
+  width: 75%;
+  /* height: 422px; */
+  height: auto;
   margin: 24px;
   border-radius: 1rem;
+}
+.jumbotron-conteiner-img-media{
+  visibility: hidden;
+  height: 0;
 }
 
 .jumbotron-text-button {
   display: flex;
+  justify-content: space-around;
   padding: 20px;
   align-items: center;
-  margin-left: 16vw;
+  /* margin-left: 16vw; */
 }
 
 .jumbotron-text-button h2 {
@@ -88,28 +96,137 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.jumbotron-text-button-logo{
+margin-left: 16vw;
+}
+.jumbotron-carosello-footer-left, .jumbotron-carosello-footer-play, .jumbotron-carosello-footer-right{
+  width: 33px;
+  height: 33px;
+  color:white;
+  background-color: rgb(35, 31, 31);
+  border-radius: 50%;
+  padding: 9px;
+  margin-right: 15px;
+}
+.jumbotron-carosello-footer-line1, .jumbotron-carosello-footer-line2, .jumbotron-carosello-footer-line3{
+  width: 50px;
+  height: 8px;
+  background-color: gray;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+.jumbotron-carosello-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5vw;
+}
+.jumbotron-carosello-footer div:hover {
+  animation: bounce 0.7s ease;
+  transform: scale(1.05);
+  background-color: red;
+  border-color: 1px solid red;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+
+  60% {
+    transform: scale(1.05);
+  }
+}
+.jumbotron-carosello-footer a{
+  color: white;
+  text-decoration: none;
+}
+@media screen and (max-width: 1020px){
+  .carosello-jumbotron {
+    /* background-image: url(https://assets.nintendo.com/image/upload/f_auto/q_auto/c_fill,w_1000/ncom/en_US/merchandising/center-stage-stories/2023/11-November/Black%20Friday/Ncom_2200x2000_centerstage_3_HW_m_HH); */
+    display: flex;
+    flex-direction: column;
+    /* height: 88vw; */
+    height: auto;
+  }
+  .jumbotron-conteiner-img-media{
+    visibility: visible;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+  }
+  .jumbotron-container{
+  width: 100%;
+  height: 100%;
+  }
+  .jumbotron-text-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 70px;
+    /* padding-top: 85vw; */
+  }
+  .jumbotron-text-button-logo{
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  .jumbotron-text-button button{
+    width: 900px;
+    margin-top: 40px;
+  }
+  .jumbo-cont{
+    width: 100%;
+    height: 80%;
+  }
+  .jumbotron-image{
+    display: none;
+    height: 0;
+  }
+  .jumbotron-carosello-footer{
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .featured-card{
+    border-top: 1px solid gray;
+  }
+  .featured-card-container{
+    /* margin-left: 50vw;
+    margin-top: 10vw; */
+    margin: auto auto auto auto;
+  }
+  .featured-card-text h2{
+    /* margin-top: 5vw;
+    margin-bottom: -60vw; */
+    margin: 0 auto ;
+  }
+}
 .featured-card-container {
   display: flex;
   font-family: "Museo Sans Rounded", sans-serif;
   
 }
-.featured-card h2 {
-  font-size: 26px;
+.featured-card-text {
+  font-size: 18px;
   padding: 2vw;
-  margin-top: 5vw;
+  /* margin-top: 5vw; */
   margin-right: auto;
   color: rgb(72, 72, 72);
-  margin-left: 16vw;
+  /* margin-left: 16vw; */
   font-family: "Museo Sans Rounded", sans-serif;
-}
+}  
+
 .featured-card {
-  padding-top: 10rem;
+  /* padding-top: 10rem; */
   width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   /* margin: 0 auto; */
   align-items: center;
+  border-top: 1px solid gray;
   
 }
 
@@ -1572,5 +1689,5 @@ h3{
 }
 .jumbo-cont a img {
   margin: 0 auto;
-  margin-top: 100px;
+  /* margin-top: 100px; */
 }
