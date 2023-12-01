@@ -834,7 +834,7 @@ margin-left: 16vw;
   color: rgba(56, 56, 56, 0.805);
   padding: 15px 30px;
 }
-.nav-central-button:hover {
+ .nav-central-button:focus {
   color: rgb(230, 0, 18);
   transition: 0.5s;
 }
