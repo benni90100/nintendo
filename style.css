@@ -318,7 +318,8 @@ body {
   }
 }
 
-.digital-best-sellers-title h2 {
+.digital-best-sellers-title h2,
+h2 {
   padding-right: 10px;
   border-right: 1px solid black;
   color: rgb(97, 97, 97);
@@ -868,47 +869,47 @@ h3 {
   max-height: 600px;
 }
 
-#games{
+#games {
   display: none;
 }
 
-.input-games:checked ~ .hover-menu-games{
+.input-games:checked ~ .hover-menu-games {
   max-height: 600px;
 }
 
-.hover-container-games-p{
+.hover-container-games-p {
   width: 120px;
   text-align: center;
   cursor: pointer;
 }
 
-.hover-container-games-p:hover .hover-container-games{
-  background-color: #e60012
+.hover-container-games-p:hover .hover-container-games {
+  background-color: #e60012;
 }
 
-.hover-container-games-p:hover .icon-hover-games{
+.hover-container-games-p:hover .icon-hover-games {
   color: white;
 }
 
-.hover-container-games-p:hover p{
+.hover-container-games-p:hover p {
   color: #e60012;
 }
 
-.hover-container-games-p p{
+.hover-container-games-p p {
   font-size: 0.9rem;
   color: rgb(43 43 43 / 81%);
 }
 
-.icon-hover-games{
+.icon-hover-games {
   font-size: 2.5rem;
   color: rgb(43 43 43 / 81%);
 }
 
-#icon-rotate-games{
+#icon-rotate-games {
   transform: rotate(180deg);
   margin-left: 5px;
 }
-.hover-container-games-out{
+.hover-container-games-out {
   width: 50%;
   margin: 0 auto;
   padding-top: 36px;
@@ -916,11 +917,9 @@ h3 {
   display: flex;
   justify-content: center;
   gap: 1.75rem;
-
 }
 
-
-.hover-container-games{
+.hover-container-games {
   height: 4.25rem;
   border: 1px solid rgb(218, 218, 218);
   background-color: white;
@@ -1747,4 +1746,144 @@ h3 {
 .jumbo-cont a img {
   margin: 0 auto;
   /* margin-top: 100px; */
+}
+.card-container-characters {
+  width: 85%;
+  margin: 0 auto;
+  
+}
+.card-container-flex{
+  width: 95%;
+  display: grid;
+  grid-template-columns: 1fr 1fr  1fr 1fr;
+  flex-wrap: wrap;
+  gap: 20px;
+  /* margin: 20px; */
+  
+}
+.title-characters{
+  display: block;
+  padding-bottom: 20px;
+  
+}
+.card-characters{
+  overflow: hidden;
+}
+.card-characters img{
+
+/* height: 100%; */
+/* object-fit: cover; */
+overflow: hidden;
+transition: 200ms ease-in-out;
+position: relative;
+}
+
+.container-card-char{
+  /* width: 400px; */
+  overflow: hidden;
+}
+.chard-background-char{
+  background-image: url(https://assets.nintendo.com/image/upload/q_auto/f_auto/c_fill,h_300,w_300/dpr_2.0/ncom/en_US/merchandising/mario-bg);
+  border-radius: 20px;
+  background-size: 130%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  transition: 200ms ease-in-out;
+  
+}
+.chard-background-char1{
+  background-image: url(https://assets.nintendo.com/image/upload/q_auto/f_auto/c_fill,h_300,w_300/dpr_2.0/ncom/en_US/merchandising/Character%20Portals/The%20Legend%20of%20Zelda/1600x1600_background_02);
+  border-radius: 20px;
+  background-size: 130%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  transition: 200ms ease-in-out;
+  
+}
+.chard-background-char2{
+  background-image: url(https://assets.nintendo.com/image/upload/q_auto/f_auto/c_fill,h_300,w_300/dpr_2.0/ncom/en_US/merchandising/Character%20Portals/Ncom_CharacterRail_1600x1600_Splatoon_BG);
+  border-radius: 20px;
+  background-size: 130%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  transition: 200ms ease-in-out;
+  
+}
+.chard-background-char2{
+  background-image: url(https://assets.nintendo.com/image/upload/q_auto/f_auto/c_fill,h_300,w_300/dpr_2.0/ncom/en_US/merchandising/Character%20Portals/Ncom_CharacterRail_1600x1600_Splatoon_BG);
+  border-radius: 20px;
+  background-size: 130%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  transition: 200ms ease-in-out;
+  
+}
+.chard-background-char3{
+  background-image: url(https://assets.nintendo.com/image/upload/q_auto/f_auto/c_fill,h_300,w_300/dpr_2.0/ncom/en_US/merchandising/Character%20Portals/1600x1600_NCOM_Home_Characters_Kirby_BG);
+  border-radius: 20px;
+  background-size: 130%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  transition: 200ms ease-in-out;
+  
+}
+.chard-background-char4{
+  background-image: url(https://assets.nintendo.com/image/upload/q_auto/f_auto/c_fill,h_300,w_300/dpr_2.0/ncom/en_US/merchandising/CREATIVE-1295-CharacterSection-Background-Pikmin_v02);
+  border-radius: 20px;
+  background-size: 130%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  transition: 200ms ease-in-out;
+  
+}
+.chard-background-char5{
+  background-image: url(https://assets.nintendo.com/image/upload/q_auto/f_auto/c_fill,h_300,w_300/dpr_2.0/ncom/en_US/merchandising/CREATIVE-1295-CharacterSection-Background-AnimalCrossing);
+  border-radius: 20px;
+  background-size: 130%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  transition: 200ms ease-in-out;
+  
+}
+.chard-background-char6{
+  background-image: url(https://assets.nintendo.com/image/upload/q_auto/f_auto/c_fill,h_300,w_300/dpr_2.0/ncom/en_US/merchandising/CREATIVE-1295-CharacterSection-Background-Metroid_v01);
+  border-radius: 20px;
+  background-size: 130%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  transition: 200ms ease-in-out;
+  
+}
+.chard-background-char7{
+  background-image: url(https://assets.nintendo.com/image/upload/q_auto/f_auto/c_fill,h_300,w_300/dpr_2.0/ncom/en_US/merchandising/CREATIVE-1295-CharacterSection-Background-Pokemon_v01);
+  border-radius: 20px;
+  background-size: 130%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  transition: 200ms ease-in-out;
+  
+}
+
+.card-characters img:hover{
+  transform: scale(1.1);
+  overflow: hidden;
+  
+}
+.chard-background-char:hover,
+.chard-background-char1:hover,
+.chard-background-char2:hover,
+.chard-background-char3:hover,
+.chard-background-char4:hover,
+.chard-background-char5:hover,
+.chard-background-char6:hover,
+.chard-background-char7:hover
+{
+  background-size: 120%;
+  overflow: hidden;
+}
+.container-card-char h3{
+  padding: 10px;
+  font-size: 1.3rem;
+  color: rgb(58, 58, 58);
+  
 }
