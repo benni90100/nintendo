@@ -25,7 +25,7 @@ body {
 
 .jumbotron-image {
   display: flex;
-  width: 75%;
+  width: 95%;
   /* height: 422px; */
   height: auto;
   margin: 24px;
@@ -107,7 +107,7 @@ body {
   color: white;
   background-color: rgb(35, 31, 31);
   border-radius: 50%;
-  padding: 9px;
+  padding: 10px;
   margin-right: 15px;
 }
 .jumbotron-carosello-footer-line1,
