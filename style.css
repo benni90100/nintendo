@@ -866,7 +866,8 @@ h3 {
 #nintendo {
   display: none;
 }
-.input-lab:checked ~ .hover-menu {
+.input-lab:checked ~ .hover-menu,
+.input-games:checked ~ .hover-menu-games {
   background-color: #00000096;
   height: 100vh;
   max-height: 600px;
@@ -876,8 +877,8 @@ h3 {
   display: none;
 }
 
-.input-games:checked ~ .hover-menu-games {
-  max-height: 600px;
+.background-color-hover-games{
+  background-color: white;
 }
 
 .hover-container-games-p {
