@@ -318,13 +318,16 @@ body {
   }
 }
 
-.digital-best-sellers-title h2,
-h2 {
+.digital-best-sellers-title h2 {
   padding-right: 10px;
   border-right: 1px solid black;
   color: rgb(97, 97, 97);
   font-weight: 600;
   font-size: 1.75rem;
+}
+
+h2{
+  color: rgb(65, 65, 65);
 }
 
 .digital-best-sellers-title a {
@@ -1886,4 +1889,15 @@ position: relative;
   font-size: 1.3rem;
   color: rgb(58, 58, 58);
   
+}
+@media screen and (max-width: 560px) {
+  .card-container-flex{
+  width: 95%;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  flex-wrap: wrap;
+  gap: 20px;
+  /* margin: 20px; */
+  
+}
 }
