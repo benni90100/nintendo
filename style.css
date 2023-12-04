@@ -847,7 +847,8 @@ h3 {
   height: 50%;
   background-color: brown;
 }
-.hover-menu {
+.hover-menu,
+.hover-menu-games {
   /* display: none; */
   position: absolute;
   top: 95px;
@@ -865,6 +866,69 @@ h3 {
   background-color: #00000096;
   height: 100vh;
   max-height: 600px;
+}
+
+#games{
+  display: none;
+}
+
+.input-games:checked ~ .hover-menu-games{
+  max-height: 600px;
+}
+
+.hover-container-games-p{
+  width: 120px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hover-container-games-p:hover .hover-container-games{
+  background-color: #e60012
+}
+
+.hover-container-games-p:hover .icon-hover-games{
+  color: white;
+}
+
+.hover-container-games-p:hover p{
+  color: #e60012;
+}
+
+.hover-container-games-p p{
+  font-size: 0.9rem;
+  color: rgb(43 43 43 / 81%);
+}
+
+.icon-hover-games{
+  font-size: 2.5rem;
+  color: rgb(43 43 43 / 81%);
+}
+
+#icon-rotate-games{
+  transform: rotate(180deg);
+  margin-left: 5px;
+}
+.hover-container-games-out{
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 36px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 1.75rem;
+
+}
+
+
+.hover-container-games{
+  height: 4.25rem;
+  border: 1px solid rgb(218, 218, 218);
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 17px;
 }
 
 .hover-logo {
