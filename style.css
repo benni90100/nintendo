@@ -1624,11 +1624,18 @@ h3 {
   flex-wrap: wrap;
   gap: 20px;
 }
+@media screen and (max-width:899px){
+  .card-container-flex{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 .title-characters {
   display: block;
   padding-bottom: 20px;
 }
 .card-characters {
+  display: flex;
   overflow: hidden;
 }
 .card-characters img {
