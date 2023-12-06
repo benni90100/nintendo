@@ -1592,6 +1592,13 @@ h3 {
   grid-auto-flow: column;
   grid-template-columns: 186px 186px 186px 186px;
 }
+@media screen and (max-width: 899px) {
+  .linkbar-grid{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+  }
+}
 
 .linkbar-grid--item {
   padding-left: 1.5rem;
@@ -1745,7 +1752,7 @@ h3 {
     color 200ms ease-in-out 25ms;
 }
 
-@media screen and (max-width: 1020px) {
+/* @media screen and (max-width: 1020px) {
   .linkbar-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1753,7 +1760,7 @@ h3 {
     column-gap: 1rem;
     row-gap: 2rem;
   }
-}
+} */
 .jumbo-cont a img {
   margin: 0 auto;
   /* margin-top: 100px; */
