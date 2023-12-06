@@ -1895,7 +1895,7 @@ position: relative;
   .card-container-flex{
   width: 95%;
   display: grid;
-  grid-template-columns: 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr ;
   flex-wrap: wrap;
   gap: 20px;
   /* margin: 20px; */
