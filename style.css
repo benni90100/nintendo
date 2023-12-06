@@ -211,8 +211,8 @@ body {
 .featured-card-text {
   font-size: 18px;
   padding: 2vw;
-
-  margin-right: auto;
+width: 80%;
+  margin: 0 auto;
   color: rgb(72, 72, 72);
 
   font-family: "Museo Sans Rounded", sans-serif;
